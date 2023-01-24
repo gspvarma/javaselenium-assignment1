@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="220.925">
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="Verify login functionality" time="13.961">
+<system-out><![CDATA[Given user launch the app...................................................passed
+When user click on signin...................................................passed
+Then user should be navigated to login page 'Amazon Sign In'................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="Verify login functionality1" time="18.261">
+<system-out><![CDATA[Given user launches the app.................................................passed
+When user clicks on signin..................................................passed
+Then user should be able to login using userId password '7093321744''GSPvarma@28'.passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="search required item" time="15.419">
+<system-out><![CDATA[Given user open the app.....................................................passed
+When user searches required item 'mobiles'..................................passed
+Then user should be navigated to that page 'Amazon.in : mobiles'............passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="search required item1" time="18.677">
+<system-out><![CDATA[Given user open the app.....................................................passed
+When user searches required item 'redmi note 5 pro'.........................passed
+Then user should be able to select required product.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="search required item2" time="23.574">
+<system-out><![CDATA[Given user open the app.....................................................passed
+When user searches required item 'hp probook 640 g2'........................passed
+Then user should be able to select and add to cart..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="search required item3" time="26.77">
+<system-out><![CDATA[Given user open the app.....................................................passed
+When user searches required item 'redmi note 5 pro'.........................passed
+Then user should be able to remove item from cart...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="proceed to payment" time="35.691">
+<system-out><![CDATA[Given user open the app.....................................................passed
+When user searches required item 'redmi note 5 pro'.........................passed
+And user able to click buy item and signin '7093321744''GSPvarma@28'........passed
+Then user should able to go to payment page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="Verify login functionality1" time="14.861">
+<system-out><![CDATA[Given user launches the app.................................................passed
+When user clicks on signin..................................................passed
+Then user should be able to check login using userId password 'abc'.........passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="Search from all by category" time="38.145">
+<system-out><![CDATA[Given user launches the app.................................................passed
+When user clicks on allnav..................................................passed
+Then user should able to search by category.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to login amazon so that I can buy items I need." name="Search for customer support" time="15.13">
+<system-out><![CDATA[Given user launches the app.................................................passed
+When user clicks on customer support and clicks particular support..........passed
+Then user should able to navigated to support page..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
